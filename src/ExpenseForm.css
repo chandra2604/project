@@ -1,0 +1,51 @@
+.new-expense__controls{
+    flex: 0.5;
+    flex-wrap:wrap;
+    gap:1rem;
+    margin-bottom: 0.25rem;
+    text-align: left;
+    width: auto;
+}
+.new-expense__control label{
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+.new-expense__control input{
+    font: inherit;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 20rem;
+    max-width: 50%;
+}
+
+
+
+.new-expense__control{
+    background-color:#a892ee ;
+    padding:1rem ;
+    margin: 2rem auto ;
+    width:50rem ;
+    max-width: 50%;
+    border-radius:12px ;
+    text-align: center;
+    
+}
+.new-expense__actions{
+    text-align:  right;
+}
+.new-expense button {
+    font: inherit;
+    cursor: pointer;
+    padding:1rem;
+    border: 1px solid #40005d;
+    color: white;
+}
+
+
+
+.new-expense button:active{
+    background-color: #510674;
+    border-color: #510674;
+}
